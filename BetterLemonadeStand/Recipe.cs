@@ -8,5 +8,12 @@ namespace BetterLemonadeStand
 {
     class Recipe
     {
+        //member variables 
+
+
+        //constructor
+
+
+        //member methods
     }
 }

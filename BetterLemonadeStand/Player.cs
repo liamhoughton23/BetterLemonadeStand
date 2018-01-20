@@ -8,5 +8,12 @@ namespace BetterLemonadeStand
 {
     class Player
     {
+        //member variables 
+
+
+        //constructor
+
+
+        //member methods
     }
 }

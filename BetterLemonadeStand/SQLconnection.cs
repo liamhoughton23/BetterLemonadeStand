@@ -8,5 +8,12 @@ namespace BetterLemonadeStand
 {
     class SQLconnection
     {
+        //member variables 
+
+
+        //constructor
+
+
+        //member methods
     }
 }

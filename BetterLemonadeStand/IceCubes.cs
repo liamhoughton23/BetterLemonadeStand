@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BetterLemonadeStand
 {
-    class IceCubes
+    class IceCubes : Items
     {
+        public override string GetName()
+        {
+            name = "Ice Cubes";
+            return name;
+        }
     }
 }

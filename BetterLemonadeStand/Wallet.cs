@@ -8,5 +8,12 @@ namespace BetterLemonadeStand
 {
     class Wallet
     {
+        //member variables 
+
+
+        //constructor
+
+
+        //member methods
     }
 }
