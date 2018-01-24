@@ -9,9 +9,20 @@ namespace BetterLemonadeStand
     class Player
     {
         //member variables 
-
+        public double amountOfMoney;
+        public int numberOfItemsBought;
+        public double rounding;
 
         //constructor
+        public Player()
+        {
+
+            numberOfItemsBought = 0;
+            amountOfMoney = 20.00;
+
+        }
+
+        
 
 
         //member methods

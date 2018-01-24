@@ -11,7 +11,5 @@ namespace BetterLemonadeStand
             public string name;
 
             public abstract string GetName();
-
-
         }
  }

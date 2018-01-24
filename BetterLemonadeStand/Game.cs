@@ -9,23 +9,21 @@ namespace BetterLemonadeStand
     class Game
     {
         //member variables 
-
+        string welcome;
+        string rules;
 
         //constructor
         public Game()
         {
-            DisplayRules();
+            welcome = "Welcome to Lemonade Stand!";
+            rules = "The goal of the game is to make as much profit from selling lemonade as possible. The weather will affect how much people want lemonade, so price it accordingly. You start with $20.00";
         }
 
         //member methods
         public void DisplayRules()
         {
-            Console.WriteLine("Welcome to Lemonade Stand!");
-            Console.ReadLine();
-            Console.WriteLine("The goal of the game is to make as much profit from selling lemonade as possible.");
-            Console.WriteLine("The weather will affect how much people want lemonade, so price it accordingly. ");
-            Console.ReadLine();
-            Console.WriteLine("You start with $20.00");
+            UI.DisplayMessage(welcome);
+            UI.DisplayMessage(rules);
         }
     }
 }

@@ -29,20 +29,24 @@ namespace BetterLemonadeStand
                 forecast = randForecast.Next(0, 3);
                 if (forecast == 0)
                 {
-                    Console.WriteLine("Clear sky");
+                    string clearSky = "Clear sky";
+                    UI.DisplayMessage(clearSky);
                 }
                 else if (forecast == 1)
                 {
-                    Console.WriteLine("partly cloudy");
+                    string partlyCloudy = "partly cloudy";
+                    UI.DisplayMessage(partlyCloudy);
                 }
                 else if (forecast == 2)
                 {
-                    Console.WriteLine("Overcast");
+                    string overcast = "Overcast";
+                    UI.DisplayMessage(overcast);
                 }
                 else
                 {
-                    Console.WriteLine("Rain");
-                }
+                string rain = "rain";
+                UI.DisplayMessage(rain);
+            }
 
             }
         }
