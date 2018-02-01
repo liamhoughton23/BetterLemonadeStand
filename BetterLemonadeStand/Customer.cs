@@ -15,7 +15,6 @@ namespace BetterLemonadeStand
 
         //constructor
 
-
         //member methods
         public int GettingInitialNumber()
         {

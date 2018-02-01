@@ -34,7 +34,7 @@ namespace BetterLemonadeStand
                 }
                 else if (forecast == 1)
                 {
-                    string partlyCloudy = "partly cloudy";
+                    string partlyCloudy = "Partly Cloudy";
                     UI.DisplayMessage(partlyCloudy);
                 }
                 else if (forecast == 2)
@@ -44,9 +44,9 @@ namespace BetterLemonadeStand
                 }
                 else
                 {
-                string rain = "rain";
+                string rain = "Rain";
                 UI.DisplayMessage(rain);
-            }
+                }
 
             }
         }

@@ -10,18 +10,19 @@ namespace BetterLemonadeStand
     {
         //member variables 
 
-        public void ValidatingFunds(Player player, double amount)
+
+        public void ValidatingFunds(double amount)
         {
-            if (player.amountOfMoney < amount)
+            if (player.money < amount)
             {
                 string noMoney = "you don't have enough money to buy that.";
                 UI.DisplayMessage(noMoney);
             }
             else
             {
-                player.amountOfMoney -= amount;
-                string yesMoney = "You have this much money now: ";
-                UI.DisplayMessage(yesMoney + player.amountOfMoney);
+                player.Money -= amount;
+                string amountAfter = "You have this much money now: ";
+                UI.DisplayMessage(amountAfter + player.Money);
             }
         }
     }
